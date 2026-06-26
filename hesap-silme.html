@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masruf — Hesap Silme / Account Deletion</title>
+  <style>
+    :root {
+      --accent: #0F9E8E;
+      --bg: #f3f4f6;
+      --surface: #ffffff;
+      --text: #10171c;
+      --muted: #5b6770;
+      --border: #e3e6e9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 16px;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+    header { text-align: center; margin-bottom: 8px; }
+    .logo {
+      display: inline-block; width: 56px; height: 56px; border-radius: 14px;
+      background: var(--accent); color: #fff; font-weight: 700; font-size: 26px;
+      line-height: 56px; margin-bottom: 12px;
+    }
+    h1 { font-size: 24px; margin: 0 0 4px; }
+    .lang-nav { text-align: center; margin: 16px 0 28px; font-size: 14px; }
+    .lang-nav a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 18px; padding: 24px 26px; margin-bottom: 24px;
+    }
+    h2 { font-size: 20px; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--accent); display: inline-block; }
+    h3 { font-size: 16px; margin: 20px 0 6px; }
+    p, li { color: var(--text); }
+    ol, ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    a { color: var(--accent); }
+    hr { border: none; border-top: 1px solid var(--border); margin: 48px 0; }
+    .note { background: #fff8ec; border: 1px solid #f0dcb0; border-radius: 12px; padding: 12px 16px; font-size: 14px; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0c1012; --surface: #171c20; --text: #eaf0f1; --muted: #9aa6ad; --border: #2a3137; }
+      .note { background: #2a2113; border-color: #4a3c1c; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">M</div>
+      <h1>Masruf — Hesap Silme</h1>
+      <p class="muted">Yürürlük tarihi: 26 Haziran 2026</p>
+    </header>
+
+    <div class="lang-nav">
+      <a href="#tr">Türkçe</a> &nbsp;·&nbsp; <a href="#en">English</a>
+    </div>
+
+    <!-- ======================= TÜRKÇE ======================= -->
+    <section id="tr">
+      <div class="card">
+        <p>Bu sayfa, <strong>Masruf</strong> (paket adı: <code>com.masruf.app</code>) mobil uygulamasında
+        hesabınızı ve hesabınıza bağlı tüm verileri nasıl sildirebileceğinizi açıklar.</p>
+        <p class="muted">Geliştirici: Samed Aydın &nbsp;·&nbsp; İletişim:
+          <a href="mailto:aydinnsamedd@gmail.com">aydinnsamedd@gmail.com</a></p>
+      </div>
+
+      <h2>Hesabınızı nasıl silersiniz</h2>
+      <p>Hesabınızın ve tüm verilerinizin kalıcı olarak silinmesini istemek için:</p>
+      <ol>
+        <li><a href="mailto:aydinnsamedd@gmail.com?subject=Hesap%20Silme%20Talebi">aydinnsamedd@gmail.com</a>
+        adresine bir e-posta gönderin.</li>
+        <li>E-postanın konusuna <strong>"Hesap Silme Talebi"</strong> yazın.</li>
+        <li>E-postayı, uygulamada <strong>kayıtlı olduğunuz e-posta adresinden</strong> gönderin
+        (kimliğinizi doğrulayabilmemiz için).</li>
+      </ol>
+      <p>Talebiniz alındıktan sonra hesabınız ve aşağıdaki tüm veriler <strong>en geç 30 gün içinde</strong>
+      kalıcı olarak silinir. Silme işlemi geri alınamaz.</p>
+
+      <h2>Silinen veriler</h2>
+      <ul>
+        <li>Hesabınız (e-posta adresiniz ve kimlik bilgileriniz)</li>
+        <li>Tüm gelir/gider işlemleriniz, kategori ve kapsamlarınız</li>
+        <li>Kredi kartı kayıtlarınız, kart ödemeleriniz ve notlarınız</li>
+      </ul>
+      <p class="note">Cihazınızda yerel olarak saklanan tercihler (tema, bildirim ayarları) sunucuda tutulmaz;
+      uygulamayı cihazınızdan kaldırdığınızda bunlar da silinir.</p>
+
+      <h2>Saklanan veri</h2>
+      <p>Hesap silindikten sonra verilerinizden <strong>hiçbiri saklanmaz.</strong> Yasal bir yükümlülük
+      bulunmadığı sürece veriler tamamen kaldırılır.</p>
+
+      <h2>İletişim</h2>
+      <p>Sorularınız için: <a href="mailto:aydinnsamedd@gmail.com">aydinnsamedd@gmail.com</a></p>
+    </section>
+
+    <hr />
+
+    <!-- ======================= ENGLISH ======================= -->
+    <section id="en">
+      <div class="card">
+        <p>This page explains how to delete your account and all associated data in the
+        <strong>Masruf</strong> mobile app (package name: <code>com.masruf.app</code>).</p>
+        <p class="muted">Developer: Samed Aydın &nbsp;·&nbsp; Contact:
+          <a href="mailto:aydinnsamedd@gmail.com">aydinnsamedd@gmail.com</a></p>
+      </div>
+
+      <h2>How to delete your account</h2>
+      <p>To request permanent deletion of your account and all your data:</p>
+      <ol>
+        <li>Send an email to
+        <a href="mailto:aydinnsamedd@gmail.com?subject=Account%20Deletion%20Request">aydinnsamedd@gmail.com</a>.</li>
+        <li>Use the subject line <strong>"Account Deletion Request"</strong>.</li>
+        <li>Send it from the <strong>email address registered in the app</strong> so we can verify your identity.</li>
+      </ol>
+      <p>After we receive your request, your account and all of the data below are permanently deleted
+      <strong>within 30 days</strong>. Deletion cannot be undone.</p>
+
+      <h2>Data that is deleted</h2>
+      <ul>
+        <li>Your account (email address and identity information)</li>
+        <li>All your income/expense transactions, categories, and scopes</li>
+        <li>Your credit-card records, card payments, and notes</li>
+      </ul>
+      <p class="note">Preferences stored locally on your device (theme, notification settings) are not kept on the
+      server; they are removed when you uninstall the app.</p>
+
+      <h2>Data retention</h2>
+      <p><strong>No data is retained</strong> after account deletion. Unless required by law, all data is fully removed.</p>
+
+      <h2>Contact</h2>
+      <p>For questions: <a href="mailto:aydinnsamedd@gmail.com">aydinnsamedd@gmail.com</a></p>
+    </section>
+
+    <p class="muted" style="text-align:center; margin-top:48px;">© 2026 Masruf · com.masruf.app</p>
+  </div>
+</body>
+</html>
